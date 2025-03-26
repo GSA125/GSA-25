@@ -1,0 +1,77 @@
+/*Challenge 1*/
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 18px;
+    width: 15%;
+    height: 50px;
+    background-color: rgba(77,114,152,255);
+    border-color: #77a6b6;
+    
+  }
+
+  a:link {
+    color:#ffffff;
+    }
+
+
+/*Challenge 2*/
+
+article {
+    padding: 10px;
+    border: #77a6b6 2px solid;
+    flex: 1;
+    background-color: rgba(77,114,152,255);
+    color: white;
+    font-size: 23.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  section {
+   
+    display: flex; 
+    flex-direction: row;
+    height: 300px;
+    
+  }
+
+
+/*Challenge 3*/
+/*Write your CSS here*/
+.parent{
+  display: flex;
+  justify-content: center;
+  }
+
+ 
+/*Challenge 4*/
+
+
+
+    ul {display: flex;
+      flex-wrap: wrap;
+      }
+      
+      li {
+      flex: 20px;
+      box-sizing: border-box;
+      padding: 0px;
+      justify-content: space-between;
+      
+      }
+      
+      button{
+      font-size: 18px;
+      width: 10%;
+      background-color: rgba(77,114,152,255);
+      color: white;
+      
+    
+  }
+  
+  
+  

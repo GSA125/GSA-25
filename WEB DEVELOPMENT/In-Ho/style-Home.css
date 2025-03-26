@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shafarik&display=swap');
+
+* {
+   
+  font-family: "Shafarik", serif;
+  
+}
+
+
+
+h1,h2 {
+  color: darkblue;
+  letter-spacing: 20px;
+  font-weight: 20px;
+}
+
+
+.class-name {
+  text-transform: uppercase;
+  color: gold;
+  letter-spacing: 30px;
+  border-bottom: 10px dashed orange;
+  padding-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+p {
+  font-weight: 400;
+  color: darkgreen;
+  text-decoration-line: line-through;
+}
+
+h1 {
+border-bottom: 5px solid blue;
+}
+
+
+
+a {
+text-decoration:dashed ;
+}
+
+.projects-container {
+display: flex;
+gap: 8px; /* Adjust this value for spacing between the items */
+}
+
+.proyects-item {
+border: 1px solid lightgrey;
+width: 250px;
+padding: 0px 6px;
+border-radius: 6px;
+box-shadow: 0 2px 5px lightgrey;
+display: flex;
+margin: 8px; /* Add margin to create space between containers */
+background-color: pink; /* Change this to your desired background color */
+}
+
+.proyects-item a {
+color: black;
+width: 100%;
+padding: 0 16px;
+}
+
+
+
+
+
+
+  
